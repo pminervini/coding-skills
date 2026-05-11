@@ -1,6 +1,6 @@
 ---
 
-name: polars-guide
+name: polars
 description: Example-driven Polars DataFrame operations
 languages: python,rust
 ---
