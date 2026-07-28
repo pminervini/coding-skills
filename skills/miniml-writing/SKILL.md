@@ -37,7 +37,7 @@ Use a neutral, direct tone. Write for a reader trying to understand or complete 
 - Separate current behavior from proposals, assumptions, and known limitations.
 - In documentation, describe the software as it exists. Reserve change narration for changelogs and migration guides.
 
-Remove sales language such as "powerful," "seamless," "revolutionary," "best-in-class," "robust," "effortless," and "game-changing" unless it appears in a quotation or is a defined term. Do not claim that a feature "empowers" users. Explain the capability.
+Remove sales language such as "powerful," "seamless," "revolutionary," "best-in-class," "robust," "effortless," and "game-changing" unless it appears in a quotation or is a defined term. Do not claim that a feature "empowers" users. Explain the capability. Do not over use compounds words like "one-dimensional"
 
 ## Hard constraints
 
