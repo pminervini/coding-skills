@@ -11,6 +11,12 @@ Write like a person with a reason to write, not a model filling a template. Pres
 
 Determine the format before drafting. Ask only when the intended audience or format would materially change the result.
 
+## Calibrate the voice
+
+When the user provides a writing sample, inspect its sentence lengths, vocabulary, paragraph openings, punctuation, transitions, and recurring phrases. Carry those habits into the new text without exaggerating them. Do not "improve" plain language into a more formal register or add personality that the sample does not have.
+
+Without a sample, infer the voice from the format and audience. Natural writing does not require forced informality, first person, jokes, or deliberate messiness. It requires choices that fit the writer's purpose rather than a generic assistant voice.
+
 ### Blog posts
 
 Channel the qualities associated with Carl Sagan's public prose without copying his wording or catchphrases:
@@ -37,7 +43,7 @@ Use a neutral, direct tone. Write for a reader trying to understand or complete 
 - Separate current behavior from proposals, assumptions, and known limitations.
 - In documentation, describe the software as it exists. Reserve change narration for changelogs and migration guides.
 
-Remove sales language such as "powerful," "seamless," "revolutionary," "best-in-class," "robust," "effortless," and "game-changing" unless it appears in a quotation or is a defined term. Do not claim that a feature "empowers" users. Explain the capability. Do not over use compounds words like "one-dimensional"
+Remove sales language such as "powerful," "seamless," "revolutionary," "best-in-class," "robust," "effortless," and "game-changing" unless it appears in a quotation or is a defined term. Do not claim that a feature "empowers" users. Explain the capability. Avoid stacking fashionable compound modifiers when a direct description is clearer.
 
 ## Hard constraints
 
@@ -63,9 +69,17 @@ Replace praise with description. Watch for "vibrant," "rich," "stunning," "renow
 
 Remove trailing participial phrases that pretend to explain significance: "highlighting," "showcasing," "ensuring," "reflecting," "fostering," and "underscoring." Give the causal relationship explicitly or end the sentence.
 
-### Vague authority
+### Vague authority and borrowed notability
 
-Do not write "experts say," "observers note," "research suggests," or "industry reports show" without an identifiable source. Name the source and finding, or remove the attribution and unsupported claim.
+Do not write "experts say," "observers note," "research suggests," or "industry reports show" without an identifiable source. Name the source and finding, or remove the attribution and unsupported claim. A list of media outlets, follower counts, or claims of "independent coverage" does not establish relevance by itself; explain what a specific source reported when that fact matters.
+
+### Filler and ceremonial insight
+
+Cut phrases that announce importance instead of conveying it: "it is important to note," "worth flagging," "the real question is," "at its core," "what really matters," and "the deeper issue." Replace them with the fact or argument. Trim padded constructions such as "in order to," "due to the fact that," "at this point in time," and "has the ability to."
+
+Treat fashionable assistant terms such as "load-bearing," "north star," "lands," "crisp," "quietly," and "footgun" as review signals when used figuratively. They often imply an insight without explaining the mechanism or consequence. Keep ordinary literal or established technical uses.
+
+State meaningful uncertainty precisely. Avoid stacked hedges and ritual caveats; say what is unknown, what evidence is missing, or how confident the claim is.
 
 ### Formulaic rhetoric
 
@@ -75,6 +89,8 @@ Avoid:
 - canned "challenges and future outlook" sections
 - aphorisms that turn ordinary claims into grand metaphors
 - rhetorical throat-clearing such as "let's dive in" or "here's what you need to know"
+- copula avoidance such as "serves as," "stands as," or "boasts" when "is" or "has" is clearer
+- synonym cycling used only to avoid repeating the correct term
 - repeated sentence openings, paragraph lengths, and manufactured punchlines
 - strings of short fragments used to simulate drama
 - generic upbeat conclusions that add no new information
@@ -87,6 +103,7 @@ Use headings and lists only when they help navigation or comparison.
 
 - Use sentence case for headings unless the target style guide says otherwise.
 - Avoid bold label plus colon bullets when ordinary prose or a table is clearer.
+- Delete a one-line paragraph that merely restates the heading before the section begins.
 - Vary list length according to the material. A section may need two items, six items, one paragraph, or no list.
 - Avoid decorative emoji, excessive bold text, and unnecessary thematic breaks.
 - Use em dashes sparingly. Prefer periods, commas, parentheses, or sentence restructuring when several appear close together.
@@ -101,7 +118,18 @@ Use headings and lists only when they help navigation or comparison.
 6. Read the result aloud. Revise passages with an even, synthetic cadence.
 7. Run the final check below silently. Return only the requested prose unless the user asks for an editorial audit.
 
+## Final check
 
+Before returning the text, ask silently:
+
+- Does any sentence claim more significance, certainty, or causality than the facts support?
+- Did I preserve the author's meaning and recognizable voice?
+- Are any citations, quotations, names, dates, metrics, or examples invented or merely plausible?
+- Does the prose announce its insights, structure, or helpfulness instead of delivering them?
+- Have repeated rhythms, rhetorical templates, tidy contrasts, or formatting habits made the draft feel assembled?
+- Can I replace an abstraction, vague attribution, or decorative adjective with a concrete fact?
+
+Revise the remaining tells once. Do not expose this audit or return multiple drafts unless the user requests them.
 
 ## References
 
