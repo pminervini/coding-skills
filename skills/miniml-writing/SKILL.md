@@ -38,6 +38,7 @@ Use a neutral, direct tone. Write for a reader trying to understand or complete 
 - Describe what the system does, its constraints, and the relevant tradeoffs.
 - Prefer measurable claims to praise. Give evidence for comparisons.
 - Use ordinary verbs such as "is," "has," "uses," and "returns."
+- Use the simple past for completed results ("improved," "reduced") rather than the present perfect ("has improved," "has reduced").
 - Name the actor when it improves clarity. Use passive voice when the actor is irrelevant.
 - Keep terminology stable instead of cycling through synonyms.
 - Separate current behavior from proposals, assumptions, and known limitations.
