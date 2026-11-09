@@ -3,7 +3,7 @@ name: human-writing
 description: Write and edit blog posts, essays, documentation, technical explanations, release notes, and product copy without common AI-writing mannerisms. Use for natural prose, Carl Sagan-inspired science blogging, or neutral technical writing that avoids sales language, canned contrasts, repetitive structure, and formulaic lists.
 ---
 
-# Miniml writing
+# Human writing
   
 Write like a person with a reason to write, not a model filling a template. Preserve facts, intent, and the author's existing voice. If the user supplies a sample, its diction, rhythm, and punctuation take priority over this guide.
 
